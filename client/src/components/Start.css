@@ -1,0 +1,26 @@
+.star {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin: 2px;
+    float: left;
+    background-color: black;
+    clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82%  100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+
+}
+.star.selected {
+    background-color: wheat;
+}
+
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    height:auto;
+    width:auto;
+}
+
+.raiting {
+    width: 90px;
+    margin: 5px;
+    float: none;
+}
